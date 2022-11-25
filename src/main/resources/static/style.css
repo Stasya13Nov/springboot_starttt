@@ -7,8 +7,117 @@
 
 .menu li > a {
     text-decoration: none;
+    color:#241136;
+    font-size:25px;
+    margin:10px;
+    font-weight:800;
+
+}
+.menu li a:hover{
+    opacity:0.5;
+}
+img{
+    height:500px;
+    width:1400px;
+    margin:30px 50px
+}
+.oblaka{
+    margin:0 500px;
+    font-size:40px;
+    text-align:center;
+    letter-spacing:4px;
+    color: #6e6ed5
+}
+.info{
+    color:#571697;
+    text-align:justify;
+    font-weight:900;
+    font-size:22px;
+    letter-spacing:0.5px;
+    line-height:1.3;
+    text-shadow:1px 1px 1px aqua;
+    border:5px solid #d0eded;
+    padding:10px;
+    border-radius:20px;
+    outline:5px solid #97c6ec9e;
+    padding:10px 60px;
+}
+.info_zagolovok{
+    text-align:center;
+    letter-spacing:2.4px;
+    font-size:35px;
+    font-weight:600;
+    color:#7336b0;
+    text-shadow:2px 1px 2px #297070;
+}
+.info_1{
+    letter-spacing:2.3px;
+    font-size:20px;
+    color:#8a6fad;
+    text-shadow:1px 1px 1px #297070;
+    line-height:1.5;
+}
+.info_chiroko {
+    letter-spacing: 0px;
+    line-height: 1.1;
+    color: #29262d;
+    text-shadow: 0px 1px 1px #297070;
+}
+.body_about{
+    background: #d7d7ef;
+}
+table{
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+}
+th{
+    padding:5px;
+    font-size:25px;
+    letter-spacing:2.3px;
+}
+td{
+    text-align:center;
+    font-size:20px
+}
+form{
+    font-size:20px;
+    color:#2e0e58;
+    text-shadow:1px 1px 1px #323895;
+    padding:20px;
+}
+input{
+    width:200px;
+    height:20px;
+}
+textarea{
+    width:300px;
+    height:60px
+}
+button{
+    font-size: 20px;
+    font-weight: 700;
+    transition: 1s;
+    width: 150px;
+    height: 40px;
+    color:#7e1ec4;
+    background: #e5cfe5;
+    margin-bottom: 20px;
+    border-radius:30%;
 }
 
-.menu:first-child > a{
-    color: red;
+button:hover{
+    font-size: 25px;
+    background: -webkit-linear-gradient(#c775d0,#7bc6dd,#483eb7);
+    border-radius:0%;
+}
+input[type=radio] {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 20px;
 }

@@ -16,13 +16,17 @@ public class HelloController {
         return "index";
     }
 
-    @GetMapping("/projects")
+    @GetMapping("/uslugi")
     public String projects() {
-        return "projects";
+        return "uslugi";
     }
 
     @GetMapping("/about")
     public String about() {
         return "about";
+    }
+    @GetMapping("/forma")
+    public String forma() {
+        return "forma";
     }
 }
